@@ -61,7 +61,7 @@ if (targetLanguage == null || targetLanguage.isBlank()) {
 
     private String translateText(String content, String targetLanguage) {
     try {
-        String apiKey = "AIzaSyAXrbqWARlFjoBNv_0KccFG95iTAsL5UTg"; 
+        String apiKey = "api_key"; 
         String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
         HttpHeaders headers = new HttpHeaders();
